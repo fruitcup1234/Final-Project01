@@ -70,6 +70,24 @@ li.dropdown {
 p {
 	font-family: 'Sedgwick Ave Display', cursive;
 }
+hr {
+    height: 40px;
+    border-style: solid;
+    border-color: gold;
+    border-width: 2px 0 0 0;
+    border-radius: 30px;
+    width: 50%
+}
+hr:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: gold;
+    border-width: 0 0 2px 0;
+    border-radius: 20px;
+}
 </style>
 </head>
 <body>
@@ -98,15 +116,15 @@ p {
     <br/>
      <div style="text-align:center">
       	<div id="content_div1"><img src="fence.jpg" width="600" height="454" /><p style="font-size:200%;"align="center">personalize your style</p></div>
- 	<br/>
+ 	<hr/>
 	  
  	<p><a href="https://fruitcup1234.github.io/Final-Project01/look_book.html"><i>choose your threads</i></a></p>  
-        <br/>
+        <hr/>
         <div id="content_div1"><img src="flowers.jpg" width="600" height="454"/><p style="font-size:200%;"align= "center">several different stores to choose from</p></div>
   	<p><a href="https://fruitcup1234.github.io/Final-Project01/likes.html">view your likes</a></p>
-        <br/>
+        <hr/>
  	<div id="content_div1"><img src="baw.jpg" width="600" height="454" /><p style="font-size:200%;" align= "center">male and female choices</p></div></div>
-        <br/>
+        <hr/>
     
       </div>
   </div><!--end of content-->
