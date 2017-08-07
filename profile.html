@@ -71,16 +71,11 @@ li.dropdown {
 </ul>
     <body style="background-color:powderblue;">
         
-<form action="/action_page.php">
-  First name:<br>
-  <input type="text" name="firstname" value="">
-  <br>
-  Last name:<br>
-  <input type="text" name="lastname" value="">
-  <br><br>
-  <button type="button" onclick='document.getElementById("demo").innerHTML = "Thank you"'>Click Me!</button>
-    
-</form> 
+<form action="/profile.html" method="get" target="_blank">
+  First name: <input type="text" name="fname"><br>
+  Last name: <input type="text" name="lname"><br>
+  <input type="submit" value="Submit">
+</form>
        <form action="/action_page.php">
   Birthday (date and time):
   <input type="datetime-local" name="bdaytime">
@@ -91,7 +86,9 @@ li.dropdown {
   Phone Number:
   <input type="tel" name="usrtel">
   <button type="button" onclick='document.getElementById("demo").innerHTML = "Thank you"'>Click Me!</button>
-</form>   
+
+        
+  </form>   
         
 </body>
 </html>
